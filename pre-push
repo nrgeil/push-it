@@ -1,0 +1,9 @@
+#!/bin/sh
+
+push_command=$(ps -ocommand= -p $PPID)
+
+if [[ $push_command = *'force'* ]]; then
+    # Update path to where you stored your mp3 file
+    afplay /path/to/music/push_it.mp3;
+    $($push_command --no-verify);
+fi
