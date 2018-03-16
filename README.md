@@ -1,3 +1,6 @@
+This has been tested only on macOS. To get it to work on other operating systems, update the
+afplay command to whatever command line tool on your system that will play music files. 
+
 ### Installation
 
 Create a sample clip of whatever you want to play during a force push. Personally, I went with 
